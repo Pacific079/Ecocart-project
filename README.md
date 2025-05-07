@@ -64,6 +64,11 @@ This project was submitted for the **Prabal Hackathon 2025**.
 
 ---
 
+## Demo for project
+Live Demo: https://pacific079.github.io/Ecocart-project/
+
+---
+
 ## 📜 License
 This project is licensed under the **MIT License**, making it open-source and free to use or modify.
 
