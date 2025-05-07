@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="helpcenter.css">
+    <title>helpcenter</title>
+</head>
+<body>
+
+
+    <header>
+      <nav>
+        <div class="navbar">
+  
+          <!-- Right section -->
+          <div class="nav-right">
+            <!-- <a href="#">🌿EcoCart</a> -->
+          <a href="index.html">🌿EcoCart</a>
+
+          </div>
+  
+          <!-- Hamburger for mobile -->
+          <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+  
+          <!-- Left section -->
+          <!-- <div class="nav-left" id="nav-links">
+            <ul>
+              <li> <a href="#"> Product </a></li>
+              <li><a href="#">Carbon Offsetting</a></li>
+              <li><a href="#">LCA</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Help Center</a></li>
+            </ul>
+          </div> -->
+          
+          <div class="nav-left" id="nav-links">
+            <ul>
+            <li> <a href="index.html"> Home </a></li>
+
+              <li> <a href="product.html"> Product </a></li>
+              <li><a href="carbonoffset.html">Carbon Offsetting</a></li>
+              <li><a href="life.html">LCA</a></li>
+              <li><a href="blogs.html">Blog</a></li>
+              <li><a href="helpcenter.html">Help Center</a></li>
+            </ul>
+          </div>
+          
+          <!-- Center button -->
+          <div class="nav-center">
+            <button><a href="product.html">Green EcoCart Shopping</a></button>
+          </div>
+  
+        </div>
+      </nav>
+  
+    </header>
+  
+    <div class="wrapper">
+       
+        <div class="intro">
+            <h1>HOW CAN WE HELP?</h1>
+            <p>Welcome to the EcoCart Help Center! Here you can find answers to frequently asked questions, contact support, and access our community forums.</p>
+        </div>
+        <div class="profile">
+            <img src="assets/helpcenter1.jpg" alt="">
+        </div>
+    
+        
+    </div>
+
+    <div class="faq">
+        <h1>FREQUENTLY ASKED QUESTIONS</h1>
+    </div>
+    <div class="main-container">
+        <div class="dynamicCard">
+          <div class="topLayer">What is EcoCart?</div>
+          <div class="innerLayer">EcoCart is a sustainable shopping assistant that helps you make eco-friendly purchasing decisions. We analyze products and provide sustainability scores, tips, and better alternatives to reduce your environmental impact.</div>
+        </div>
+    <!-- </div> -->
+    <!-- <div class="main-container"> -->
+      <div class="dynamicCard">
+        <div class="topLayer">How does EcoCart calculate sustainability scores?</div>
+        <div class="innerLayer"> We evaluate products based on criteria like carbon footprint, packaging materials, sourcing practices, and brand transparency. Our scores are backed by data from trusted environmental sources.</div>
+      </div>
+    <!-- </div> -->
+  
+    <!-- <div class="main-container"> -->
+      <div class="dynamicCard">
+        <div class="topLayer">Does using EcoCart guarantee I’m shopping sustainably?</div>
+        <div class="innerLayer">While EcoCart guides you toward greener options, we recommend considering multiple aspects like local sourcing, minimal packaging, and personal consumption habits for a truly sustainable lifestyle.</div>
+      </div>
+    <!-- </div> -->
+  
+    <!-- <div class="main-container"> -->
+      <div class="dynamicCard">
+        <div class="topLayer">Can I use EcoCart on any shopping website?</div>
+        <div class="innerLayer"> EcoCart works best with selected major retailers. It is a plugin that integrates with popular e-commerce platforms. You can check our website for a list of supported retailers.</div>
+      </div>
+  <!-- </div> -->
+  
+  <!-- <div class="main-container"> -->
+    <div class="dynamicCard">
+      <div class="topLayer">Is my data safe with EcoCart?</div>
+      <div class="innerLayer">Absolutely. We prioritize user privacy and never sell your data. Check out our [Privacy Policy] for full details.</div>
+    </div>
+  <!-- </div> -->
+  
+  <!-- <div class="main-container"> -->
+    <div class="dynamicCard">
+      <div class="topLayer">Who created EcoCart?</div>
+      <div class="innerLayer"> EcoCart was developed as part of a student-led initiative during a hackathon, aimed at making sustainability easier and more accessible for everyone. We are a team of passionate individuals committed to promoting eco-friendly practices and reducing carbon footprints.</div>
+    </div>
+  </div>
+  
+    
+<!-- chatbox  -->
+
+<div id="chat-btn" class="chat-btn">
+  <img src="chat-icon.png" alt="Chat" />
+</div>
+
+<!-- Chatbox -->
+<div id="chatbox" class="chat-container">
+  <div id="chat-box" class="chat-box">
+      <!-- Bot and user messages will be displayed here -->
+  </div>
+  <input type="text" id="user-input" placeholder="Type your message..." class="user-input">
+  <button onclick="sendMessage()" class="send-button">Send</button>
+</div>
+    
+
+  <script src="script.js"></script>
+
+
+
+
+
+  <!-- Load Firebase + App Config -->
+  <script type="module" src="firebase-config.js"></script>
+  <script type="module" src="form-handler.js"></script>
+
+    
+
+
+</body>
+<section>
+    <div class="footer-container">
+      <div class="footer-data">
+
+
+        <div class="footer-logo">
+          <!-- <h4><a href="#">🌿EcoCart </a></h4> -->
+          <h4><a href="index.html">🌿EcoCart </a></h4>
+
+        </div>
+
+
+        <div class="footer-list1">
+          <ul>
+            <li><a href="index.html#impact-pagess"> Impact </a></li> 
+            <li><a href="product.html">Product</a></li>
+            <li><a href="index.html#third-pages"> Contact us  </a></li>
+  
+          </ul>
+        </div>
+  
+  
+        <div class="footer-list2">
+  
+          <ul>
+            <li><a href="about.html"> About Us </a></li>
+            <li><a href="about.html#term&condition"> Term & condition </a></li>
+            <li><a href="helpcenter.html"> Help Center </a></li>
+  
+          </ul>
+        </div>
+
+        <div class="footer-form">
+          <form id="signup-form">
+            <p>Sign up for updates</p>
+            <span>Email<span>*</span></span>
+            <label for="email">
+              <input type="email" name="email" id="email" required>
+            </label>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section>
+    <div class="copyright">
+      <footer class="footer">
+        <p>© EcoCart 2025 <br>
+          &hearts; devloped by SGI Hunter Team</p>
+
+      </footer>
+    </div>
+  </section>
+</html>
