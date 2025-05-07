@@ -1,82 +1,77 @@
-<<<<<<< HEAD <<<<<<< HEAD ﻿# Ecocart-hackathon-project this project devloped by SGU ( prabal ) Hackathon
 
-🌿 EcoCart – Sustainable Shopping Assistant
-EcoCart is a web-based platform developed for the Prabal Hackathon that helps users make environmentally conscious shopping decisions. It evaluates product sustainability, offers greener alternatives, and promotes mindful consumption — all within an elegant, user-friendly interface.
+# 🌿 EcoCart – Sustainable Shopping Assistant
 
-🔧 Tech Stack
-HTML, CSS, JavaScript
-Firebase (v11.6.0)
-Bootstrap
-Poppins Font
-🔐 Features
-Modal-based login/signup
-Eco-badges for product cards
-Contact form with blurred modal
-Firebase-based auth
-📌 Features
-🔍 Product Search – Quickly search for consumer products.
-♻️ Eco-Rating System – Visual eco-badges based on sustainability factors.
-🌱 Green Alternatives – Suggests eco-friendlier products when available.
-🔐 Modal-Based Login – Seamless login/signup via blurred background modal.
-📬 Contact Modal – Full-screen contact form with intuitive design.
-📱 Responsive Design – Mobile-first layout using Bootstrap.
-🔥 Firebase Integration – Real-time user authentication (Firebase v11.6.0).
-🛠️ Tech Stack
-Frontend: HTML5, CSS3, JavaScript (ES6+), Bootstrap
-Authentication & Backend: Firebase SDK (v11.6.0)
-Fonts: Poppins (Google Fonts)
-Design Aesthetic: Green-themed for eco-awareness
-📁 Project Structure
-Ecocart-hackathon-project/ ├── index.html ├── css/ │ └── style.css ├── js/ │ └── app.js ├── images/ ├── firebase/ │ └── firebase-config.js └── README.md
+EcoCart is a web-based platform developed during the **Prabal Hackathon 2025** to empower users to make environmentally conscious shopping decisions. The platform evaluates product sustainability, offers greener alternatives, and streamlines a sustainable shopping experience.
 
-🙌 Team & Credits 💻 Developed by: Rishishinde08 , aniket gosavi , krishna poul , pruthaviraj mali
+---
 
-🚀 Submitted for: Prabal Hackathon 2025
+## 🔧 Tech Stack
+- **Frontend**: HTML5, CSS3, JavaScript (ES6+)
+- **Frameworks**: Bootstrap
+- **Authentication & Backend**: Firebase SDK (v11.6.0)
+- **Fonts**: Poppins (Google Fonts)
+- **Design Aesthetic**: Green-themed for eco-awareness
 
-🎨 UI Inspired by sustainable design principles
+---
 
-📜 License This project is licensed under the MIT License.
+## 🔐 Features
+### 🌱 Core Features
+- **🔍 Product Search**: Quickly search and find consumer products.  
+- **♻️ Eco-Rating System**: Visual eco-badges that evaluate sustainability factors.  
+- **🌱 Green Alternatives**: Suggests eco-friendlier alternatives for products.  
 
-======= ﻿# Ecocart-hackathon-project this project devloped by SGU ( prabal ) Hackathon
+### 🛠️ Additional Features
+- **🔐 Modal-Based Login**: Seamless login/signup with a blurred background modal.  
+- **📬 Contact Modal**: Full-screen contact form with intuitive design.  
+- **📱 Responsive Design**: Mobile-first layout using Bootstrap.  
+- **🔥 Firebase Integration**: Real-time user authentication.  
 
-🌿 EcoCart – Sustainable Shopping Assistant
-EcoCart is a web-based platform developed for the Prabal Hackathon that helps users make environmentally conscious shopping decisions. It evaluates product sustainability, offers greener alternatives, and promotes mindful consumption — all within an elegant, user-friendly interface.
+---
 
-🔧 Tech Stack
-HTML, CSS, JavaScript
-Firebase (v11.6.0)
-Bootstrap
-Poppins Font
-🔐 Features
-Modal-based login/signup
-Eco-badges for product cards
-Contact form with blurred modal
-Firebase-based auth
-📌 Features
-🔍 Product Search – Quickly search for consumer products.
-♻️ Eco-Rating System – Visual eco-badges based on sustainability factors.
-🌱 Green Alternatives – Suggests eco-friendlier products when available.
-🔐 Modal-Based Login – Seamless login/signup via blurred background modal.
-📬 Contact Modal – Full-screen contact form with intuitive design.
-📱 Responsive Design – Mobile-first layout using Bootstrap.
-🔥 Firebase Integration – Real-time user authentication (Firebase v11.6.0).
-🛠️ Tech Stack
-Frontend: HTML5, CSS3, JavaScript (ES6+), Bootstrap
-Authentication & Backend: Firebase SDK (v11.6.0)
-Fonts: Poppins (Google Fonts)
-Design Aesthetic: Green-themed for eco-awareness
-📁 Project Structure
-Ecocart-hackathon-project/ ├── index.html ├── css/ │ └── style.css ├── js/ │ └── app.js ├── images/ ├── firebase/ │ └── firebase-config.js └── README.md
+## 📂 Project Structure
+```
+Ecocart-project/
+├── index.html                 # Main entry point
+├── css/
+│   └── style.css              # Styling for the platform
+├── js/
+│   └── app.js                 # JavaScript logic
+├── images/                    # Asset folder
+├── firebase/
+│   └── firebase-config.js     # Firebase configuration
+└── README.md                  # Project documentation
+```
 
-🙌 Team & Credits 💻 Developed by: Rishishinde08 , aniket gosavi , krishna poul , pruthaviraj mali
+---
 
-🚀 Submitted for: Prabal Hackathon 2025
+## 🙌 Team & Credits
+Developed with passion by:
+- **Rishishinde08**
+- **Krishna Poul**
+- **Aniket Gosavi**
+- **Pruthaviraj Mali**
 
-🎨 UI Inspired by sustainable design principles
+---
 
-📜 License This project is licensed under the MIT License.
+## 🚀 Submission
+This project was submitted for the **Prabal Hackathon 2025**.
 
-25c28cf (traking system added) =======
+---
 
-ecocart-project-prabal-hackathon
-this project devloped for SGU (prabal) hackathon
+## 🎨 Design Principles
+- Inspired by **sustainable design principles**.
+- Focused on user-friendly layouts and eco-awareness.
+
+---
+
+## 📜 License
+This project is licensed under the **MIT License**, making it open-source and free to use or modify.
+
+---
+
+### How to Improve or Contribute  
+We welcome contributions to this project.  
+- Fork the repository.  
+- Submit a pull request with your improvements and ideas!  
+
+Feel free to reach out if you have any questions or suggestions.
